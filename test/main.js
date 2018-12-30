@@ -3,6 +3,9 @@ const main = require("../src/main");
 
 describe("おこってない", function() {
   it("おこった?", function() {
-    assert(main.notAngry("おこった?"));
+    assert.equal(main.notAngry("おこった?"), "おこってないよ");
+  });
+  it("おこった??", function() {
+    assert.notEqual(main.notAngry("おこった??"), "おこってないよ");
   });
 });
