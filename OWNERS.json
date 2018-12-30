@@ -1,0 +1,8 @@
+{
+    "version": 0,
+    "reviewers": [
+        "yamachu"
+    ],
+    "auto_merge.enabled": true,
+    "auto_merge.delete_branch": true
+}
